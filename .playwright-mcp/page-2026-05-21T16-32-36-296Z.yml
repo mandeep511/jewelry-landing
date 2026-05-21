@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "MAISON KOREL Atelier · Established 2019 · Lot N° 014" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e5]: MAISON KOREL
+        - generic [ref=e6]: Atelier · Established 2019 · Lot N° 014
+      - navigation "Primary" [ref=e7]:
+        - link "ATELIER" [ref=e8] [cursor=pointer]:
+          - /url: "#atelier"
+        - link "ARCHIVE" [ref=e9] [cursor=pointer]:
+          - /url: "#archive"
+        - link "JOURNAL" [ref=e10] [cursor=pointer]:
+          - /url: "#journal"
+        - link "ACCOUNT" [ref=e11] [cursor=pointer]:
+          - /url: "#account"
+      - generic [ref=e13]: BRACELET · 047–2009 · L.M.D
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - img "Model wearing a Maison Korel chain necklace and a single hoop earring." [ref=e16]
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Spring Atelier — Edition 22
+        - heading "Worn quietly. Remembered loudly." [level=1] [ref=e20]:
+          - generic [ref=e21]: Worn quietly.
+          - generic [ref=e22]: Remembered loudly.
+        - paragraph [ref=e23]: New work from the spring shiver — necklaces, earrings, and a small first run of cuffs.
+        - link "Enter the collection" [ref=e24] [cursor=pointer]:
+          - /url: "#index"
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: Opening Atelier · 814 Pieces
+        - link "View the full index →" [ref=e28] [cursor=pointer]:
+          - /url: "#index"
+      - generic [ref=e29]:
+        - article [ref=e30]:
+          - img "Korel No. 12 — brushed 18k pendant with single pearl." [ref=e32]
+          - generic [ref=e33]:
+            - heading "Korel No. 12" [level=3] [ref=e34]
+            - paragraph [ref=e35]: Brushed 18k, single freshwater pearl, hand-set.
+            - paragraph [ref=e36]: € 2,840
+        - article [ref=e37]:
+          - img "Halve Cuff — a hand wearing a solid bronze cuff." [ref=e39]
+          - generic [ref=e40]:
+            - heading "Halve Cuff" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Solid bronze, oxidised, edition of 24.
+            - paragraph [ref=e43]: € 1,640
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "Made by four hands in Antwerp." [level=2] [ref=e46]:
+          - generic [ref=e47]: Made by four hands
+          - generic [ref=e48]: in Antwerp.
+        - paragraph [ref=e49]: Korel Mahé-Olivier, Studio Director — and one apprentice.
+      - article [ref=e50]:
+        - img "A pendant and rings resting on linen beside an open journal and dried wildflowers." [ref=e52]
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: From the archive · Journal N°2
+          - heading "On the weight of small objects." [level=3] [ref=e55]:
+            - generic [ref=e56]: On the weight
+            - generic [ref=e57]: of small objects.
+          - paragraph [ref=e58]: A short note from the atelier on commissioning your first heirloom — what to ask, what to expect, and why the smallest pieces are the hardest to make.
+          - link "Read in the journal →" [ref=e59] [cursor=pointer]:
+            - /url: "#journal"
+    - generic [ref=e60]:
+      - generic [ref=e61]: Maison Korel
+      - generic [ref=e63]: Instagram · Journal · Stockists
+    - generic [ref=e64]:
+      - img "The Halve Collar — a brushed gold sculptural collar with a single baroque pearl, photographed on linen." [ref=e65]
+      - generic [ref=e67]:
+        - paragraph [ref=e68]: Object N° 014 · 02
+        - paragraph [ref=e69]: Maison Korel · Spring Atelier
+        - paragraph [ref=e70]: Edition of 22. Numbered & signed.
+      - generic [ref=e71]:
+        - heading "The Halve Collar." [level=2] [ref=e72]:
+          - generic [ref=e73]: The
+          - generic [ref=e74]: Halve Collar.
+        - paragraph [ref=e75]: Brushed 18k, single baroque pearl. Held by hand for ninety-six hours.
+        - link "Reserve from the atelier" [ref=e76] [cursor=pointer]:
+          - /url: "#reserve"
+      - paragraph [ref=e77]: Price on application
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - paragraph [ref=e80]: The Atelier · Antwerp
+        - link "On the making →" [ref=e81] [cursor=pointer]:
+          - /url: "#making"
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - img "Hands working at a leather-covered bench, shaping a small gold ring with tweezers." [ref=e85]
+          - generic [ref=e86]:
+            - heading "Every piece is held by the same four hands." [level=2] [ref=e87]:
+              - generic [ref=e88]: Every piece is held
+              - generic [ref=e89]: by the same four hands.
+            - paragraph [ref=e90]: From wax to weight, from file to finish, each Korel object is built at one bench in one room in Antwerp. We make twelve to twenty pieces a month. Never more.
+        - complementary [ref=e91]:
+          - img "Three brushed gold rings resting on a worn wooden bench." [ref=e93]
+          - generic [ref=e94]:
+            - paragraph [ref=e95]: Tools
+            - paragraph [ref=e96]: Bench 02
+            - paragraph [ref=e97]: Korel M.O.
+            - paragraph [ref=e98]: Est. 2019
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - heading "The full spring index." [level=2] [ref=e102]:
+            - generic [ref=e103]: The full
+            - generic [ref=e104]: spring index.
+          - paragraph [ref=e105]: Fourteen pieces, photographed in natural light through one north window over the course of three mornings.
+        - navigation "Filter by category" [ref=e106]:
+          - button "All" [ref=e107] [cursor=pointer]
+          - generic [ref=e108]: ·
+          - button "Necklaces" [ref=e109] [cursor=pointer]
+          - generic [ref=e110]: ·
+          - button "Earrings" [ref=e111] [cursor=pointer]
+          - generic [ref=e112]: ·
+          - button "Cuffs" [ref=e113] [cursor=pointer]
+          - generic [ref=e114]: ·
+          - button "Rings" [ref=e115] [cursor=pointer]
+      - generic [ref=e116]:
+        - article [ref=e117]:
+          - img "Halve Drops — a pair of gold and garnet drop earrings." [ref=e119]
+          - generic [ref=e120]:
+            - heading "Halve Drops" [level=3] [ref=e121]
+            - paragraph [ref=e122]: 18k, pair of garnets.
+            - paragraph [ref=e123]: € 1,940
+        - article [ref=e124]:
+          - img "Korel Cuff N° 02 — a hand-hammered bronze cuff on linen." [ref=e126]
+          - generic [ref=e127]:
+            - heading "Korel Cuff N° 02" [level=3] [ref=e128]
+            - paragraph [ref=e129]: Hand-hammered bronze, gilt.
+            - paragraph [ref=e130]: € 2,260
+        - article [ref=e131]:
+          - img "Atelier Trio — three stacked rings in gold and obsidian." [ref=e133]
+          - generic [ref=e134]:
+            - heading "Atelier Trio" [level=3] [ref=e135]
+            - paragraph [ref=e136]: 18k, obsidian, set of three.
+            - paragraph [ref=e137]: € 1,480
+        - article [ref=e138]:
+          - img "Spiral No. 7 — a coiled gold chain with a single baroque pearl." [ref=e140]
+          - generic [ref=e141]:
+            - heading "Spiral No. 7" [level=3] [ref=e142]
+            - paragraph [ref=e143]: 18k chain, baroque pearl.
+            - paragraph [ref=e144]: € 2,140
+      - generic [ref=e145]:
+        - paragraph [ref=e146]: View the complete index
+        - link "All fourteen pieces →" [ref=e147] [cursor=pointer]:
+          - /url: "#all"
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - heading "MAISON KOREL" [level=3] [ref=e151]
+          - paragraph [ref=e152]: Sculptural jewelry, made in Antwerp. Limited editions, numbered and signed. Built at one bench, by four hands.
+          - link "Read the atelier manifesto →" [ref=e153] [cursor=pointer]:
+            - /url: "#manifesto"
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: Collection
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Necklaces" [ref=e158] [cursor=pointer]:
+                - /url: "#necklaces"
+            - listitem [ref=e159]:
+              - link "Earrings" [ref=e160] [cursor=pointer]:
+                - /url: "#earrings"
+            - listitem [ref=e161]:
+              - link "Cuffs" [ref=e162] [cursor=pointer]:
+                - /url: "#cuffs"
+            - listitem [ref=e163]:
+              - link "Rings" [ref=e164] [cursor=pointer]:
+                - /url: "#rings"
+            - listitem [ref=e165]:
+              - link "The Full Index" [ref=e166] [cursor=pointer]:
+                - /url: "#index"
+        - generic [ref=e167]:
+          - paragraph [ref=e168]: Atelier
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "Our Process" [ref=e171] [cursor=pointer]:
+                - /url: "#process"
+            - listitem [ref=e172]:
+              - link "Materials" [ref=e173] [cursor=pointer]:
+                - /url: "#materials"
+            - listitem [ref=e174]:
+              - link "Antwerp" [ref=e175] [cursor=pointer]:
+                - /url: "#antwerp"
+            - listitem [ref=e176]:
+              - link "Care & Repair" [ref=e177] [cursor=pointer]:
+                - /url: "#care"
+            - listitem [ref=e178]:
+              - link "Commission" [ref=e179] [cursor=pointer]:
+                - /url: "#commission"
+        - generic [ref=e180]:
+          - paragraph [ref=e181]: Journal
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Notes" [ref=e184] [cursor=pointer]:
+                - /url: "#notes"
+            - listitem [ref=e185]:
+              - link "Interviews" [ref=e186] [cursor=pointer]:
+                - /url: "#interviews"
+            - listitem [ref=e187]:
+              - link "Archive" [ref=e188] [cursor=pointer]:
+                - /url: "#archive"
+            - listitem [ref=e189]:
+              - link "Journal 02" [ref=e190] [cursor=pointer]:
+                - /url: "#journal-02"
+            - listitem [ref=e191]:
+              - link "All Issues" [ref=e192] [cursor=pointer]:
+                - /url: "#all-issues"
+        - generic [ref=e193]:
+          - paragraph [ref=e194]: Atelier
+          - paragraph [ref=e195]:
+            - text: Korel Mahé-Olivier
+            - text: Kammenstraat 12
+            - text: 2000 Antwerp
+            - text: Belgium
+          - paragraph [ref=e196]:
+            - link "atelier@maisonkorel.com" [ref=e197] [cursor=pointer]:
+              - /url: mailto:atelier@maisonkorel.com
+          - paragraph [ref=e198]: +32 3 234 19 78
+      - generic [ref=e199]:
+        - paragraph [ref=e200]: © Maison Korel, 2019–2026. All rights reserved.
+        - paragraph [ref=e201]: Edition of 22. Numbered & signed. Made in Antwerp.
+        - paragraph [ref=e202]:
+          - link "Instagram" [ref=e203] [cursor=pointer]:
+            - /url: "#instagram"
+          - generic [ref=e204]: ·
+          - link "Journal" [ref=e205] [cursor=pointer]:
+            - /url: "#journal"
+          - generic [ref=e206]: ·
+          - link "Stockists" [ref=e207] [cursor=pointer]:
+            - /url: "#stockists"

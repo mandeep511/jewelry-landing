@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maison Korel — Spring Atelier · Antwerp</title>
+  <meta name="description" content="Maison Korel — a small Antwerp atelier. Sculptural jewelry, made by four hands, in editions of twenty-two." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       TOP NAV (fixed, transparent over hero, paper after scroll)
+  ============================================================ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#">
+        <span class="nav__brand-name">MAISON KOREL</span>
+        <span class="nav__brand-sub">Atelier &middot; Established 2019 &middot; Lot N&deg; 014</span>
+      </a>
+
+      <nav class="nav__center" aria-label="Primary">
+        <a href="#atelier">ATELIER</a>
+        <a href="#archive">ARCHIVE</a>
+        <a href="#journal">JOURNAL</a>
+        <a href="#account">ACCOUNT</a>
+      </nav>
+
+      <div class="nav__right">
+        <span class="nav__serial">BRACELET &middot; 047&ndash;2009 &middot; L.M.D</span>
+        <button class="nav__menu" id="menuOpen" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- mobile drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__backdrop" data-close></div>
+    <aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Site menu">
+      <div class="drawer__top">
+        <span class="drawer__brand">MAISON KOREL</span>
+        <button class="drawer__close" id="menuClose" aria-label="Close menu">
+          <span></span><span></span>
+        </button>
+      </div>
+
+      <nav class="drawer__nav" aria-label="Mobile primary">
+        <a href="#atelier" data-close>Atelier</a>
+        <a href="#archive" data-close>Archive</a>
+        <a href="#journal" data-close>Journal</a>
+        <a href="#account" data-close>Account</a>
+      </nav>
+
+      <div class="drawer__index">
+        <p class="eyebrow">The Index</p>
+        <a href="#index" data-close>Necklaces</a>
+        <a href="#index" data-close>Earrings</a>
+        <a href="#index" data-close>Cuffs</a>
+        <a href="#index" data-close>Rings</a>
+      </div>
+
+      <div class="drawer__foot">
+        <p class="meta-r">Atelier &middot; Antwerp</p>
+        <p class="body">Kammenstraat 12<br />2000 Antwerp, Belgium</p>
+        <p class="body"><a href="mailto:atelier@maisonkorel.com">atelier@maisonkorel.com</a></p>
+      </div>
+    </aside>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+         SECTION 1 — HERO
+    ============================================================ -->
+    <section class="hero" id="top">
+      <img class="hero__img" src="assets/s-1-bg-hero.png" alt="Model wearing a Maison Korel chain necklace and a single hoop earring." />
+      <div class="hero__veil"></div>
+
+      <div class="hero__copy">
+        <p class="eyebrow">Spring Atelier &mdash; Edition 22</p>
+        <h1 class="hero__title">
+          <span>Worn quietly.</span>
+          <span>Remembered loudly.</span>
+        </h1>
+        <p class="hero__lede">
+          New work from the spring shiver &mdash; necklaces, earrings,
+          and a small first run of cuffs.
+        </p>
+        <a class="link-serif" href="#index">Enter the collection</a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 2 — OPENING ATELIER · TWO PRODUCTS
+    ============================================================ -->
+    <section class="s2">
+      <div class="s2__head">
+        <p class="eyebrow">Opening Atelier &middot; 814 Pieces</p>
+        <a class="link-serif link-serif--sm" href="#index">View the full index &rarr;</a>
+      </div>
+
+      <div class="s2__grid">
+        <article class="product product--lg">
+          <div class="product__media product__media--43">
+            <img src="assets/s-2-p-1.png" alt="Korel No. 12 — brushed 18k pendant with single pearl." />
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Korel No. 12</h3>
+            <p class="meta">Brushed 18k, single freshwater pearl, hand-set.</p>
+            <p class="product__price">&euro; 2,840</p>
+          </div>
+        </article>
+
+        <article class="product product--lg">
+          <div class="product__media product__media--43">
+            <img src="assets/s-2-p-2.png" alt="Halve Cuff — a hand wearing a solid bronze cuff." />
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Halve Cuff</h3>
+            <p class="meta">Solid bronze, oxidised, edition of 24.</p>
+            <p class="product__price">&euro; 1,640</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 3 — MADE BY FOUR HANDS + JOURNAL CARD
+    ============================================================ -->
+    <section class="s3">
+      <div class="s3__col s3__col--left">
+        <h2 class="display">
+          <span>Made by four hands</span>
+          <span class="italic">in Antwerp.</span>
+        </h2>
+        <p class="meta s3__cred">Korel Mah&eacute;-Olivier, Studio Director &mdash; and one apprentice.</p>
+      </div>
+
+      <article class="s3__card">
+        <div class="s3__card-media">
+          <img src="assets/s-3-bg.png" alt="A pendant and rings resting on linen beside an open journal and dried wildflowers." />
+        </div>
+        <div class="s3__card-body">
+          <p class="eyebrow">From the archive &middot; Journal N&deg;2</p>
+          <h3 class="s3__card-title">
+            <span>On the weight</span>
+            <span class="italic">of small objects.</span>
+          </h3>
+          <p class="body">
+            A short note from the atelier on commissioning your first heirloom &mdash;
+            what to ask, what to expect, and why the smallest pieces are the hardest
+            to make.
+          </p>
+          <a class="link-serif link-serif--sm" href="#journal">Read in the journal &rarr;</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- thin label band between S3 and S4 -->
+    <div class="strip">
+      <span class="eyebrow">Maison Korel</span>
+      <span class="strip__dots" aria-hidden="true">&nbsp;</span>
+      <span class="eyebrow">Instagram &middot; Journal &middot; Stockists</span>
+    </div>
+
+    <!-- ============================================================
+         SECTION 4 — THE HALVE COLLAR (feature)
+    ============================================================ -->
+    <section class="s4">
+      <img class="s4__img" src="assets/s-4-bg.png" alt="The Halve Collar — a brushed gold sculptural collar with a single baroque pearl, photographed on linen." />
+      <div class="s4__veil"></div>
+
+      <div class="s4__meta">
+        <p class="meta-r">Object N&deg; 014 &middot; 02</p>
+        <p class="meta-r">Maison Korel &middot; Spring Atelier</p>
+        <p class="meta-r">Edition of 22. Numbered &amp; signed.</p>
+      </div>
+
+      <div class="s4__copy">
+        <h2 class="display">
+          <span>The</span>
+          <span class="italic">Halve Collar.</span>
+        </h2>
+        <p class="meta s4__sub">Brushed 18k, single baroque pearl. Held by hand for ninety-six hours.</p>
+        <a class="link-serif" href="#reserve">Reserve from the atelier</a>
+      </div>
+
+      <p class="s4__price">Price on application</p>
+    </section>
+
+    <!-- ============================================================
+         SECTION 5 — ATELIER WORKSHOP
+    ============================================================ -->
+    <section class="s5">
+      <div class="s5__head">
+        <p class="eyebrow">The Atelier &middot; Antwerp</p>
+        <a class="link-serif link-serif--sm" href="#making">On the making &rarr;</a>
+      </div>
+
+      <div class="s5__grid">
+        <div class="s5__main">
+          <div class="s5__main-media">
+            <img src="assets/s-5-p-1.png" alt="Hands working at a leather-covered bench, shaping a small gold ring with tweezers." />
+          </div>
+          <div class="s5__main-body">
+            <h2 class="display display--md">
+              <span>Every piece is held</span>
+              <span class="italic">by the same four hands.</span>
+            </h2>
+            <p class="body s5__lede">
+              From wax to weight, from file to finish, each Korel object is built
+              at one bench in one room in Antwerp. We make twelve to twenty pieces
+              a month. Never more.
+            </p>
+          </div>
+        </div>
+
+        <aside class="s5__side">
+          <div class="s5__side-media">
+            <img src="assets/s-5-p-2.png" alt="Three brushed gold rings resting on a worn wooden bench." />
+          </div>
+          <div class="s5__side-meta">
+            <p class="meta-r">Tools</p>
+            <p class="meta-r">Bench 02</p>
+            <p class="meta-r">Korel M.O.</p>
+            <p class="meta-r">Est. 2019</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 6 — THE FULL SPRING INDEX
+    ============================================================ -->
+    <section class="s6" id="index">
+      <div class="s6__head">
+        <div>
+          <h2 class="display display--md">
+            <span>The full</span>
+            <span class="italic">spring index.</span>
+          </h2>
+          <p class="meta s6__sub">
+            Fourteen pieces, photographed in natural light through one
+            north window over the course of three mornings.
+          </p>
+        </div>
+
+        <nav class="s6__filter" aria-label="Filter by category">
+          <button class="is-active" data-filter="all">All</button>
+          <span aria-hidden="true">&middot;</span>
+          <button data-filter="necklaces">Necklaces</button>
+          <span aria-hidden="true">&middot;</span>
+          <button data-filter="earrings">Earrings</button>
+          <span aria-hidden="true">&middot;</span>
+          <button data-filter="cuffs">Cuffs</button>
+          <span aria-hidden="true">&middot;</span>
+          <button data-filter="rings">Rings</button>
+        </nav>
+      </div>
+
+      <div class="s6__grid">
+        <article class="product product--row" data-cat="earrings">
+          <div class="product__media product__media--43">
+            <img src="assets/s-6-p-1.png" alt="Halve Drops — a pair of gold and garnet drop earrings." />
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Halve Drops</h3>
+            <p class="meta">18k, pair of garnets.</p>
+            <p class="product__price">&euro; 1,940</p>
+          </div>
+        </article>
+
+        <article class="product product--row product--row-reverse" data-cat="cuffs">
+          <div class="product__media product__media--43">
+            <img src="assets/s-6-p-2.png" alt="Korel Cuff N° 02 — a hand-hammered bronze cuff on linen." />
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Korel Cuff N&deg; 02</h3>
+            <p class="meta">Hand-hammered bronze, gilt.</p>
+            <p class="product__price">&euro; 2,260</p>
+          </div>
+        </article>
+
+        <article class="product product--row" data-cat="rings">
+          <div class="product__media product__media--43">
+            <img src="assets/s-6-p-3.png" alt="Atelier Trio — three stacked rings in gold and obsidian." />
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Atelier Trio</h3>
+            <p class="meta">18k, obsidian, set of three.</p>
+            <p class="product__price">&euro; 1,480</p>
+          </div>
+        </article>
+
+        <article class="product product--row product--row-reverse" data-cat="necklaces">
+          <div class="product__media product__media--43">
+            <img src="assets/s-6-p-4.png" alt="Spiral No. 7 — a coiled gold chain with a single baroque pearl." />
+          </div>
+          <div class="product__body">
+            <h3 class="product__name">Spiral No. 7</h3>
+            <p class="meta">18k chain, baroque pearl.</p>
+            <p class="product__price">&euro; 2,140</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="s6__foot">
+        <p class="eyebrow">View the complete index</p>
+        <a class="link-serif" href="#all">All fourteen pieces &rarr;</a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 7 — FOOTER
+    ============================================================ -->
+    <footer class="foot">
+      <div class="foot__top">
+        <div class="foot__brand">
+          <h3 class="foot__name">MAISON KOREL</h3>
+          <p class="body foot__tag">
+            Sculptural jewelry, made in Antwerp. Limited editions,
+            numbered and signed. Built at one bench, by four hands.
+          </p>
+          <a class="link-serif link-serif--sm" href="#manifesto">Read the atelier manifesto &rarr;</a>
+        </div>
+
+        <div class="foot__col">
+          <p class="eyebrow">Collection</p>
+          <ul>
+            <li><a href="#necklaces">Necklaces</a></li>
+            <li><a href="#earrings">Earrings</a></li>
+            <li><a href="#cuffs">Cuffs</a></li>
+            <li><a href="#rings">Rings</a></li>
+            <li><a href="#index">The Full Index</a></li>
+          </ul>
+        </div>
+
+        <div class="foot__col">
+          <p class="eyebrow">Atelier</p>
+          <ul>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#antwerp">Antwerp</a></li>
+            <li><a href="#care">Care &amp; Repair</a></li>
+            <li><a href="#commission">Commission</a></li>
+          </ul>
+        </div>
+
+        <div class="foot__col">
+          <p class="eyebrow">Journal</p>
+          <ul>
+            <li><a href="#notes">Notes</a></li>
+            <li><a href="#interviews">Interviews</a></li>
+            <li><a href="#archive">Archive</a></li>
+            <li><a href="#journal-02">Journal 02</a></li>
+            <li><a href="#all-issues">All Issues</a></li>
+          </ul>
+        </div>
+
+        <address class="foot__col foot__addr">
+          <p class="eyebrow">Atelier</p>
+          <p class="body">
+            Korel Mah&eacute;-Olivier<br />
+            Kammenstraat 12<br />
+            2000 Antwerp<br />
+            Belgium
+          </p>
+          <p class="body"><a href="mailto:atelier@maisonkorel.com">atelier@maisonkorel.com</a></p>
+          <p class="body">+32 3 234 19 78</p>
+        </address>
+      </div>
+
+      <div class="foot__bot">
+        <p class="meta">&copy; Maison Korel, 2019&ndash;2026. All rights reserved.</p>
+        <p class="meta foot__center">Edition of 22. Numbered &amp; signed. Made in Antwerp.</p>
+        <p class="meta foot__social">
+          <a href="#instagram">Instagram</a>
+          <span aria-hidden="true">&middot;</span>
+          <a href="#journal">Journal</a>
+          <span aria-hidden="true">&middot;</span>
+          <a href="#stockists">Stockists</a>
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
