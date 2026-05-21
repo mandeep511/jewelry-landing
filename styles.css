@@ -289,18 +289,29 @@ body.menu-open { overflow: hidden; }
 .hero__veil {
   position: absolute; inset: 0;
   background:
-    /* strong dark wash on bottom-left to anchor headline */
-    radial-gradient(ellipse 70% 80% at 18% 88%, rgba(0,0,0,0.75), rgba(0,0,0,0) 60%),
-    /* general bottom darkening */
-    linear-gradient(to top, rgba(0,0,0,0.35), rgba(0,0,0,0) 45%),
-    /* top fade so nav reads */
-    linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0) 18%);
+    /* horizontal wash: keeps the entire left side dark enough for text
+       even when the image's center has bright skin tones */
+    linear-gradient(to right,
+      rgba(0,0,0,0.62) 0%,
+      rgba(0,0,0,0.5)  20%,
+      rgba(0,0,0,0.28) 45%,
+      rgba(0,0,0,0)    72%),
+    /* bottom-up wash anchors the headline area */
+    linear-gradient(to top,
+      rgba(0,0,0,0.45) 0%,
+      rgba(0,0,0,0.18) 35%,
+      rgba(0,0,0,0)    60%),
+    /* top fade so nav reads on light skin */
+    linear-gradient(to bottom,
+      rgba(0,0,0,0.4) 0%,
+      rgba(0,0,0,0)   20%);
 }
 .hero__copy {
   position: absolute;
   left: var(--pad-x);
+  right: var(--pad-x);
   bottom: clamp(40px, 7vw, 80px);
-  max-width: min(900px, 70vw);
+  max-width: min(960px, 72vw);
 }
 .hero__copy .eyebrow {
   color: rgba(245, 239, 226, 0.9);
@@ -308,20 +319,22 @@ body.menu-open { overflow: hidden; }
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
 }
 .hero__title {
-  font: 600 clamp(56px, 9.5vw, 148px)/0.98 var(--serif);
+  /* capped at 108 so "Remembered loudly." fits inside the dark wash
+     area on the bottom-left of the hero image, avoiding bright skin tones */
+  font: 600 clamp(52px, 7.6vw, 108px)/0.98 var(--serif);
   color: #f5efe2;
   letter-spacing: -0.018em;
   margin-bottom: 28px;
-  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.55), 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 .hero__title span { display: block; }
 .hero__title span:last-child { font-style: italic; font-weight: 500; }
 .hero__lede {
   max-width: 460px;
   font: 400 17px/1.55 var(--serif);
-  color: rgba(245, 239, 226, 0.95);
+  color: rgba(245, 239, 226, 0.96);
   margin-bottom: 32px;
-  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.55), 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 .hero__copy .link-serif {
   color: #f5efe2;
@@ -787,9 +800,9 @@ body.menu-open { overflow: hidden; }
 
   /* hero */
   .hero { height: 92vh; min-height: 540px; }
-  .hero__copy { bottom: 48px; max-width: 90vw; }
-  .hero__title { font-size: clamp(44px, 11vw, 64px); }
-  .hero__lede { font-size: 15px; }
+  .hero__copy { bottom: 48px; max-width: none; right: 20px; }
+  .hero__title { font-size: clamp(48px, 12vw, 72px); }
+  .hero__lede { font-size: 16px; max-width: none; }
 
   /* s2 */
   .s2__grid { grid-template-columns: 1fr; gap: 48px; }

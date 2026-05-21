@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+*.log
+server.log
+
+# screenshot + tooling debris
+.playwright-mcp/
+v4-*.png
+mob-*.png
+mob*.png
+hero-d*.jpg
+hero-d*.png
+d-hero*.png
+d-hero*.jpg
+desktop-s*.png
+verify-*.png
